@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class UIManagement : MonoBehaviour
 {
     public Button button;
-    public string newScene1;
+    public string newScene;
 
     void Start()
     {
@@ -17,6 +17,6 @@ public class UIManagement : MonoBehaviour
     private void OnButtonClick()
     {
         Debug.Log("Button Clicked");
-        SceneManager.LoadScene(newScene1);
+        SceneManager.LoadScene(newScene);
     }
 }
